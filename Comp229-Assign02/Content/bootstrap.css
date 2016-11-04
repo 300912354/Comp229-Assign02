@@ -162,7 +162,7 @@ button,
 input,
 select,
 textarea {
-  margin: 0;
+  margin: 0 0 0 25px;
   font-family: inherit;
   font-size: 100%;
 }
@@ -1407,6 +1407,7 @@ pre code {
 table {
   max-width: 100%;
   background-color: transparent;
+    margin-left: 0px;
 }
 
 th {
@@ -4196,6 +4197,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+    width: 452px;
 }
 
 .navbar-brand:hover,
