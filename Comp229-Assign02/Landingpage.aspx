@@ -1,8 +1,8 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="La.aspx.cs" Inherits="Comp229_Assign02._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Landingpage.aspx.cs" Inherits="Comp229_Assign02._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron" style="background-color">
+    <div class="jumbotron" style="background-color:cornsilk">
         <h1>TECHDEO</h1>
         <p class="lead">
                     <a class="navbar-brand" runat="server" href="~/">&nbsp;The place to get software right to your hand</a>

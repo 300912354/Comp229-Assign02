@@ -21,8 +21,8 @@
     <br />
     <br />
     <asp:Label ID="Label6" runat="server" Text="How was your exprience"></asp:Label>
-    <%--<label> &nbsp;how was your exp&nbsp;   </label>--%>
-    <asp:TextBox ID="txtExp" runat="server" ControlToValidate="TextBox2" ></asp:TextBox>
+    <label> &nbsp;How was your exp&nbsp;   </label>
+    <asp:TextBox ID="txtExp" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ErrorMessage="Required" Display="Dynamic" ControlToValidate="txtExp" ForeColor="Red"></asp:RequiredFieldValidator>
    
    
