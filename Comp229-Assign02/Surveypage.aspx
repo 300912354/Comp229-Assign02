@@ -1,7 +1,8 @@
 ﻿<%@ Page Title="About" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Surveypage.aspx.cs" Inherits="Comp229_Assign02.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-  <div style="background-color:aliceblue; height: 743px; width: 1338px; margin-right: 0px;">  <h2>Survey Form</h2>
+ <%-- Hello Im Moe Hi Amandeep--%>
+    <div style="background-color:aliceblue; height: 743px; width: 1338px; margin-right: 0px;">  <h2>Survey Form</h2>
       <p>&nbsp;</p>
     <asp:Label ID="Label4" runat="server" Text="Name"></asp:Label>
     <asp:TextBox ID="txtName" runat="server" Width="100px"></asp:TextBox>
@@ -16,7 +17,8 @@
         <asp:ListItem>excel</asp:ListItem>
         <asp:ListItem>power</asp:ListItem>
     </asp:DropDownList>
-    <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Choose one product" Display="Dynamic" ControlToValidate="drpDwnProduct" ForeColor="Red"></asp:RequiredFieldValidator>
+    
+      <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ErrorMessage="Choose one product" Display="Dynamic" ControlToValidate="drpDwnProduct" ForeColor="Red"></asp:RequiredFieldValidator>
       <br />
     <br />
     <br />
