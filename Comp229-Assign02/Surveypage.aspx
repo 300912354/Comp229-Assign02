@@ -2,6 +2,7 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
  <%-- Hello Im Moe Hi Amandeep--%>
+   <%-- hello,how r u--%>
     <div style="background-color:aliceblue; height: 743px; width: 1338px; margin-right: 0px;">  <h2>Survey Form</h2>
       <p>&nbsp;</p>
     <asp:Label ID="Label4" runat="server" Text="Name"></asp:Label>
